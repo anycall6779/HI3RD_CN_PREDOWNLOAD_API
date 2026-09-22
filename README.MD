@@ -50,17 +50,6 @@ size: 15016
 md5:  dc2bb7bcc6303ab9b3ef644ffb950578
 ```
 
-즉, **TEXTMAP은 API에 독립 파일로 표시되지 않고 해시된 `.wmv` ASB 내부에 포함**되어 있습니다.
-
-재검증:
-
-```powershell
-python .\check-cn-predownload-textmap-20260922.py
-```
-
-결과 파일:
-
-```text
 predownload_api_20260922\live_textmap_check.json
 predownload_api_20260922\REPORT.md
 ```
